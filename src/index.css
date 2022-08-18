@@ -57,7 +57,6 @@ h1 {
 .row > div:nth-child(5) {
   animation-delay: 0.8s;
 }
-
 .row.current > div.filled {
   animation: bounce 0.2s ease-in-out forwards;
 }
@@ -74,6 +73,21 @@ h1 {
   display: inline-block;
   border-radius: 6px;
   line-height: 50px;
+}
+.keypad > div.green {
+  background: #5ac85a;
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+.keypad > div.yellow {
+  background: #e2cc68;
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+.keypad > div.grey {
+  background: #a1a1a1;
+  color: #fff;
+  transition: all 0.3s ease-in;
 }
 
 /* animations */
